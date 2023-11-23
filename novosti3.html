@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPIT - projektni zadatak</title>
+    <meta name="Description"
+        content="Osigurat ćemo ti digitalna znanja i alate kako bi sam donosio odluke i pronašao svoj put. Upiši najkvalitetniji stručni studij u Hrvatskoj!">
+    <link rel="stylesheet" href="css/basics.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/naslovi.css">
+    <link rel="stylesheet" href="css/kontakt-form.css">
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/novosti3.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="homeSelection">
+            <li class="logo_elm"><a class="logo_itm" href="index3.html"><img class="logo" src="img/Algebra-logo.png"
+                        alt="Algebra-logo"></a></li>
+            <li>
+                <ion-icon name="home"></ion-icon><a class="sel_itm" href="index3.html">Početna</a>
+            </li>
+            <li>
+                <ion-icon name="chatbubbles"></ion-icon><a class="sel_itm" href="o_nama.html">O nama</a>
+            </li>
+            <li>
+                <ion-icon name="information-circle"></ion-icon><a class="sel_itm" href="novosti.html">Novosti</a>
+            </li>
+            <li>
+                <ion-icon name="school"></ion-icon><a class="sel_itm" href="nastavni_plan.html">Nastavni Plan</a>
+            </li>
+            <li>
+                <ion-icon name="mail"></ion-icon><a class="sel_itm" id="kontakt" href="#popForm">Kontakt</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="formOverlay" id="popForm">
+            <div class="formBox">
+                <div class="wrapper">
+                    <h2>
+                        <ion-icon name="mail"></ion-icon>Kontaktirajte nas
+                    </h2>
+                    <div class="formContainer">
+                        <form action="http://www.fulek.com/VUA/SUPIT/ContactUs">
+                            <label for="ime">Puno ime:</label>
+                            <input type="text" placeholder="Unesite ime...">
+                            <label for="email">E-mail:</label>
+                            <input type="email" placeholder="Unesite e-mail...">
+                            <label for="priority">Važnost poruke:</label>
+                            <select name="prioritySelect" id="priority">
+                                <option value="visoka">Visoka</option>
+                                <option value="niska">Niska</option>
+                            </select>
+                            <label for="">Vaša poruka</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Vaša poruka..."></textarea>
+                            <div class="checkbox">
+                                <label for="">Primaj newsletter:</label>
+                                <input type="checkbox">
+                            </div>
+                            <input class="confirm" id="confirmSubmit" type="submit" value="Pošalji">
+                            <button class="confirm" id="confirmQuit" type="button" value="cancel"> Odustani </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cover">
+            <img class="cover-img" src="img/novost3.jpg" alt="Student Josip Stanešić 12. je sistemaš svijeta">
+        </div>
+        <div class="naslov">
+            <h1>Digitalno Junior ljeto</h1>
+        </div>
+        <p class="novosti-text">
+            Algebra Junior organizira edukativne i zabavne ljetne praznike za sve
+            osnovnoškolce! I ove smo godine pripremili digitalne radionice za djecu
+            čiji je fokus rješavanja raznih problema korištenjem tehnologije,
+            multimedije, digitalnog dizajna i komunikacija te stvaranju sadržaja u
+            svim multimedijskim i softverskim oblicima. Radionice se održavaju u
+            sklopu Digitalnog ljetnog kampa u Crikvenici i Digitalne ljetne škole u
+            Zagrebu kako bismo se družili, zabavljali i učili i na moru i na
+            kontinentu! Na digitalnom kampu i u školi provodit će se dva različita
+            programa koji su namijenjena djeci od 1. do 8. razreda. Ovisno o
+            odabranom terminu, polaznici će prolaziti kroz 1. ili 2. program, a u
+            slučaju pohađanja dvotjednih programa – oba. U prvom programu nađe
+            nindže uče biti glazbeni menadžeri dok su u drugom novinari i kreatori
+            informacija masovnih medija. Provjerite termine, cijene i lokacije škole
+            i kampa na sljedećem linku.
+        </p>
+    </main>
+    <div class="novostifooter">
+        <footer>
+            <div class="footer-line">
+                <p class="footer-white">Budi Izvrstan u onome što voliš.</p>
+                <p class="footer-pink">Zaiskri.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/close.js"></script>
+
+</body>
+
+</html>

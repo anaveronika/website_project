@@ -1,0 +1,120 @@
+header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    z-index: 1000;    
+    background:repeating-linear-gradient(25deg, black, rgb(168, 30, 83),black,rgb(168, 30, 83), black);
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.homeSelection {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+    padding: 0.7vw;
+    margin-left: 2vw;
+    font-family: 'SF Pro Display';
+    font-size: 1vw;
+}
+
+.homeSelection li, .sel_itm {
+    display: flex;
+    margin-right: 2vw;
+    align-items: center;
+    color: white;
+}
+
+.jump-selection {
+    display: flex;
+    justify-content: right;
+    width: 60vw;
+    z-index: 1000;
+    font-family: 'SF Pro Display';
+}
+
+.jump-selection li {
+    display: flex;
+    width: 100%;
+}
+
+.jump-selection li, .jump-selection a {
+    align-items: center;
+    justify-content: center;
+    color:rgb(245, 172, 38);
+    font-weight: 500;
+    text-shadow: 0.2vw, 0.1vw, 0.1vw #000;
+    font-style:oblique;
+    font-size: 1.1vw;
+}
+
+a {
+    transition: 0.3s;
+}
+
+.logo {
+    width: 3.1vw;
+    height: 2.9vw;
+}
+
+.homeSelection ion-icon {
+    color: orange;
+    margin-right: 0.5vw;
+}
+
+.homeSelection a:hover,.jump-selection a:hover {
+    color: yellow;
+    font-size: 110%;
+}
+
+
+@media all and (max-width: 480px) {
+
+
+    .homeSelection, a {
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .logo_elm { 
+        border-radius: 4vw;
+        padding: 1vw;
+        border: solid 0.5vw rgb(168, 30, 83);
+    }
+
+    .logo_elm:hover {
+        border-color: white;
+    }
+
+    .logo {
+        width: 3.5vw;
+        height: 3.3vw;
+    }
+    
+    ion-icon {
+        display: none;
+    }
+
+    .sel_itm {
+        display: none;
+    }
+    
+}
+
+@media all and (max-width:700px) {
+
+    ion-icon {
+        display: none;
+    }
+
+
+    .sel_itm {
+        font-size: 1.5vw;
+    }  
+}

@@ -1,0 +1,33 @@
+@media all and (max-width: 768px) {
+
+    .pop-blocks td{
+        display: block;
+    }
+
+    .location td{
+        display: block;
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    .location table {
+        table-layout: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-spacing: 2vw 1vw;
+        text-align: center;
+    }
+
+    .izborKolegija_div {
+        flex-direction: column;
+    }
+
+    .izborKolegija_div input {
+        margin-bottom: 2vw;
+    }
+
+    #result {
+        position: absolute;
+    }
+}

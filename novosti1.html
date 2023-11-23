@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPIT - projektni zadatak</title>
+    <meta name="Description"
+        content="Osigurat ćemo ti digitalna znanja i alate kako bi sam donosio odluke i pronašao svoj put. Upiši najkvalitetniji stručni studij u Hrvatskoj!">
+    <link rel="stylesheet" href="css/basics.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/naslovi.css">
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/kontakt-form.css">
+    <link rel="stylesheet" href="css/novosti1.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="homeSelection">
+            <li class="logo_elm"><a class="logo_itm" href="index3.html"><img class="logo" src="img/Algebra-logo.png"
+                        alt="Algebra-logo"></a></li>
+            <li>
+                <ion-icon name="home"></ion-icon><a class="sel_itm" href="index3.html">Početna</a>
+            </li>
+            <li>
+                <ion-icon name="chatbubbles"></ion-icon><a class="sel_itm" href="o_nama.html">O nama</a>
+            </li>
+            <li>
+                <ion-icon name="information-circle"></ion-icon><a class="sel_itm" href="novosti.html">Novosti</a>
+            </li>
+            <li>
+                <ion-icon name="school"></ion-icon><a class="sel_itm" href="nastavni_plan.html">Nastavni Plan</a>
+            </li>
+            <li>
+                <ion-icon name="mail"></ion-icon><a class="sel_itm" id="kontakt" href="#popForm">Kontakt</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="formOverlay" id="popForm">
+            <div class="formBox">
+                <div class="wrapper">
+                    <h2>
+                        <ion-icon name="mail"></ion-icon>Kontaktirajte nas
+                    </h2>
+                    <div class="formContainer">
+                        <form action="http://www.fulek.com/VUA/SUPIT/ContactUs">
+                            <label for="ime">Puno ime:</label>
+                            <input type="text" placeholder="Unesite ime...">
+                            <label for="email">E-mail:</label>
+                            <input type="email" placeholder="Unesite e-mail...">
+                            <label for="priority">Važnost poruke:</label>
+                            <select name="prioritySelect" id="priority">
+                                <option value="visoka">Visoka</option>
+                                <option value="niska">Niska</option>
+                            </select>
+                            <label for="">Vaša poruka</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Vaša poruka..."></textarea>
+                            <div class="checkbox">
+                                <label for="">Primaj newsletter:</label>
+                                <input type="checkbox">
+                            </div>
+                            <input class="confirm" id="confirmSubmit" type="submit" value="Pošalji">
+                            <button class="confirm" id="confirmQuit" type="button" value="cancel"> Odustani </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-wrapper">
+            <div class="close">
+                <a id="closeBtn" href="#"><ion-icon name="close-outline"></ion-icon></a>
+            </div>
+            <div id="galerija1">
+                <a id="arrow-left1" class="arrow" href="#galerija2"></a>
+                <img src="./img/galerija1.jpg" id="galerija1-img" alt="Student Josip Stanešić 12. je sistemaš svijeta">
+                <a id="arrow-right1" class="arrow" href="#galerija2"></a>
+            </div>
+            <div id="galerija2">
+                <a id="arrow-left2" class="arrow" href="#galerija1"></a>
+                <img src="./img/galerija2.jpg" id="galerija2-img" alt="Neka druga slika">
+                <a id="arrow-right2" class="arrow" href="#galerija1"></a>
+            </div>
+        </div>
+        <div class="article-wrapper">
+        <div class="cover">
+            <img class="cover-img" src="img/novost1.jpg" alt="Student Josip Stanešić 12. je sistemaš svijeta">
+            <p class="cover-text"> Student Josip Stanešić 12. je sistemaš svijeta i dobitnik medalje
+                izvrsnosti.</p>
+        </div>
+        <div class="naslov">
+            <h1>WorldSkills natjecanje - Kazan 2019</h1>
+        </div>
+        <p class="novosti-text">
+            Nakon godinu dana priprema za natjecanje WorldSkills Kazan 2019 na kojem
+            je sudjelovalo 1300 natjecatelja iz cijelog svijeta, trud se itekako
+            isplatio. Josip, student 3. godine preddiplomskog studija sistemskog
+            inženjerstva osvojio je 12. mjesto u vještini IT Networks and System
+            Administration te osvojio medalju izvrsnosti! Čestitke Josipu ali i
+            njegovim/našim mentorima koji su ga pripremali za ovo natjecanje –
+            voditelju studija sistemskog inženjerstva Silviju Papiću, voditelju
+            katedre za operacijske sustave – Vedranu Dakiću i asistentu na studiju
+            sistemskog inženjerstva – Jasminu Redžepagiću. Čestitke i našem studentu
+            3.godine preddiplomskog studija programskog inženjerstva Josipu Horvatu
+            i mentoru voditelju katedre za programsko inženjerstvo - Goranu Đambiću
+            na osvojenom 16.mjestu u vještini IT Software Solutions for Business.
+        </p>
+
+        <div class="hyper-image-wrapper">
+            <a class="hyper-image" id="hyper-image1" href="#galerija1">
+                <img src="img/galerija1.jpg" class="hyper-image-img"
+                    alt="Student Josip Stanešić 12. je sistemaš svijeta">
+                <div class="overlay">
+                </div>
+            </a>
+            <a class="hyper-image" id="hyper-image2" href="#galerija2">
+                <img src="img/galerija2.jpg" class="hyper-image-img" alt="Neka druga slika">
+                <div class="overlay"></div>
+            </a>
+        </div>
+
+        <div class="novosti-video">
+            <video src="video/worldskills.mp4" controls></video>
+        </div>
+    </div>
+    </main>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/close.js"></script>
+    <script src="./js/show_image.js"></script>
+
+</body>
+
+</html>

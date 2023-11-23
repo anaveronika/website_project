@@ -1,0 +1,97 @@
+.hyper-image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hyper-image {
+    padding: 1vw;
+}
+
+.hyper-image-img {
+    width: 18vw;
+    height: auto;
+    border-radius: 25px;
+    border: 0.5vw rgb(227, 227, 227) solid;
+}
+
+.novosti-video {
+    display: flex;
+    justify-content: center;
+    height: 25vw;
+    padding: 2vw;
+}
+
+.hyper-image-img:hover {
+    border: 0.5vw rgb(161, 153, 153) solid;
+}
+
+.gallery-wrapper {
+    position: absolute;
+    top: 0;
+    z-index: 2500;
+    display: flex;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+#galerija1 {
+    background-color: #000;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#galerija2 {
+    display: flex;
+    background-color: #000;
+    align-items: center;
+}
+
+#galerija1-img,
+#galerija2-img {
+    width: 100%;
+}
+
+.arrow {
+    position: absolute;
+    z-index: 2500;
+}
+
+#arrow-left1,
+#arrow-left2 {
+    border-top: #fff 0.2vw solid;
+    border-left: #fff 0.2vw solid;
+    transform: rotate(-45deg);
+    color: #fff;
+    margin-left: 4vw;
+    height: 2vw;
+    width: 2vw;
+    left: 0;
+}
+
+#arrow-right1,
+#arrow-right2 {
+    border-top: #fff 0.2vw solid;
+    border-right: #fff 0.2vw solid;
+    transform: rotate(45deg);
+    color: #fff;
+    margin-right: 4vw;
+    height: 2vw;
+    width: 2vw;
+    right: 0;
+}
+
+.close {
+    position: absolute;
+    top: 1vw;
+    right: 0;
+    margin-right: 1vw ;
+}
+
+#closeBtn {
+    color: white;
+    font-size: 2vw;
+    opacity: 0.8;
+}

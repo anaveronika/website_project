@@ -1,0 +1,73 @@
+h1 {
+    margin-top: 5vw;
+}
+
+.feed-naslov {
+    color: yellow;
+    text-shadow: 0.1vw 0.1vw 0.1vw #000;
+}
+
+.novosti-feed {
+    display: flex;
+    margin-top: 2vw;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(90deg, white 0%, rgba(227, 227, 227, 0.596) 15%, rgba(227, 227, 227, 0.596) 85%, white 100%);
+}
+
+.feed-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vw;
+    border: 1vw rgb(227, 227, 227) solid;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 1px grey;
+    width: 16vw;
+    height: 16vw;
+    margin: 4vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.feed-circle p {
+    font-size: 1vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+#feed-circle1 {
+    background-image: url(../img/novost1.jpg);
+    object-fit: contain;
+}
+
+#feed-circle2 {
+    background-image: url(../img/novost2.jpg);
+}
+
+#feed-circle3 {
+    background-image: url(../img/novost3.jpg);
+}
+
+.feed-text {
+    color: #fff;
+    text-shadow: 0.1vw 0.1vw 0.1vw #000;
+}
+
+.feed-circle:hover {
+    border: 1vw rgb(204, 149, 46) solid;
+    transition: 0.3s ease-in-out;
+}
+
+@media all and (max-width: 768px) {
+
+    .novosti-feed {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1vw;
+    }
+
+    .feed-circle {
+        margin: 3vw;
+    }
+}

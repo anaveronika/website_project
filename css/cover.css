@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-img {
+    object-fit:cover;
+    width: 100%;
+    height: 20vw;
+    object-position: top;
+}
+
+.cover-text {
+    position: absolute;
+    padding: 27%;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 3vw;
+    color: white;
+    font-family: 'SF Pro Display';
+}
+
+.novosti-text {
+    display: flex;
+    word-spacing: 0.2vw;
+    line-height: 1.5vw;
+    font-size: 1.2vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'SF Pro Display';
+    padding-bottom: 2vw;
+}
+

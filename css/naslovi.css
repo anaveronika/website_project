@@ -1,0 +1,15 @@
+.naslov {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+    margin-top: 1vw;
+}
+
+h1 {
+    font-family: 'SF Pro Display';
+    font-size: 2vw;
+    border-bottom:4px solid rgb(230, 209, 22);
+    text-align: center;
+    width: 50%; 
+    padding: 0.7vw;
+}

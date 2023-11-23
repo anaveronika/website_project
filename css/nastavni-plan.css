@@ -1,0 +1,151 @@
+h1 {
+    padding: 5vw;
+}
+
+.izborKolegija_div {
+    display: flex;
+    margin: 2vw 10vw 20vw 13vw;
+}
+
+fieldset {
+    border-style: none;
+    font-weight: bold;
+    padding: 0.5vw;
+    width: 30vw;
+}
+
+legend {
+    font-size: 1vw;
+}
+
+.izborKolegija_div input {
+    width: 100%;
+    padding: 0.3vw;
+    border-width: 0.1vw;
+    border-radius: 0.3vw;
+    border-color: rgba(20, 45, 158, 0.38);
+    box-shadow: 0vw 0vw 0 0.1vw rgb(171, 207, 231);
+    font-family: 'SF Pro Display';
+    font-size: 1vw;
+}
+
+.autocomplete-items {
+    border-radius: 0.5vw;
+    border: rgb(193, 187, 187) solid;
+    font-size: 1vw;
+    font-weight: 500;
+    line-height: 1.7vw;
+    position: absolute;
+    background-color: #fff;
+}
+
+.autocomplete-items div {
+    padding: 0.4vw;
+}
+
+.autocomplete-items div:hover {
+    cursor: pointer;
+    background-color: rgb(193, 187, 187);
+}
+
+/*Tablica*/
+
+#tablica_kolegija {
+    margin-left: 4vw;
+    border-collapse: collapse;
+    text-align: left;
+    text-indent: 0.2vw;
+    font-size: 1vw;
+    width: 45vw;
+}
+
+#tablica_kolegija thead {
+    border-top: 0.1vw solid #CCC;
+    border-bottom: 0.1vw solid #CCC;
+}
+
+#tablica_kolegija th {
+    padding: 0.3vw 1vw 0.3vw 0vw;
+}
+
+#tablica_kolegija td:first-child {
+    padding-right: 2vw;
+}
+
+#tablica_kolegija tbody tr:nth-child(odd) {
+    background: rgb(235, 231, 231);
+}
+
+#tablica_kolegija tbody td {
+    width: 100%;
+    padding-right: 1vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    text-indent: 0.2vw;
+    border-top: 0.1vw solid #CCC;
+    font-family: 'SF Pro Display';
+    font-size: 1vw;
+    color: rgb(92, 87, 87);
+    font-weight: 500;
+}
+
+
+#tablica_ukupno {
+    font-weight: 700;
+    vertical-align: bottom;
+    border-top: 0.1vw solid #000;
+}
+
+#ukupno {
+    padding-top: 0.5vw;
+}
+
+#ects,
+#sati {
+    color: rgb(168, 30, 83);
+}
+
+button {
+    border: 0;
+    border-radius: 0.25rem;
+    background: rgb(168, 30, 83);
+    color: white;
+    font-size: 0.7vw;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(204, 149, 46);
+}
+
+button:active {
+    line-height: 1.3;
+}
+
+#result {
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display';
+    font-size: 1vw;
+}
+
+#result ul {
+    list-style-type: none;
+    background-color: #fff;
+    border: 0.1vw #CCC solid;
+}
+
+#result ul li {
+    padding: 5px 0;
+    padding-left: 0.3vw;
+}
+
+#result ul li:hover {
+    background: #eee;
+    cursor: pointer;
+}
